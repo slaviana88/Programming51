@@ -1,5 +1,6 @@
 package com.hackbulgaria.programming51.week4;
 
+import java.util.Collections;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -18,6 +19,7 @@ public class MissingStudents {
 				}
 				dayMissing.add(students.elementAt(i));
 			}
+			Collections.sort(dayMissing);
 			result.add(dayMissing);
 
 		}
